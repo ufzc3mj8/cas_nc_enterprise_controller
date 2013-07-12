@@ -4,7 +4,7 @@ BEGIN
     job_type => 'PLSQL_BLOCK',
     job_action => 'BEGIN CAS_EC_CODE_SYNC_PROC(); END;',
     start_date => SYSTIMESTAMP,
-    repear_interval => 'FREQ=HOURLY; INTERVAL=4',
+    repeat_interval => 'FREQ=HOURLY; INTERVAL=4',
     end_date => NULL,
     enabled => TRUE,
     comments => 'ENTERPRISE CONTROLLER - CUSTOM PAGE SYNC'
